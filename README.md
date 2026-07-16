@@ -2,6 +2,14 @@
 
 A dark-themed, live currency converter built with vanilla HTML, CSS, and JavaScript — featuring a real-time price ticker, historical rate charts, favorites, conversion logs, and multi-currency comparison.
 
+## 🔗 Live Demo 
+
+👉 [View Live](https://mansityagi548.github.io/foreign-exchange-checker/)
+
+## 📸 Preview
+
+![Desktop Preview](Preview.png)
+
 ✨ Features
 
 
