@@ -22,7 +22,6 @@ const comparePairs = document.querySelector("#compare-count");
 // ===== STATE =====
 const ids = ["ticker-1", "ticker-2"];
 const apiKeySocket = "d8vkrh9r01qgrv4p4okgd8vkrh9r01qgrv4p4ol0";
-const apiKeyPolygon = "HWH98YMLLOB0FNJC";
 let pingCounts = 0; // this is when market is closed
 let marketClosedTimer; // this is for when market is closed
 const openMarket = {}; // this if for when market open price
@@ -167,7 +166,7 @@ export async function apiCallMoney(amount, from, to) {
   }
   if (!trimAmount) return;
 
-  if (from == to) {
+  if (from === to) {
     receiveInput.value = trimAmount;
     rate_text.textContent = `${trimAmount} ${from} = ${trimAmount} ${to}`;
     return;
